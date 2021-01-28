@@ -1,0 +1,103 @@
+{
+    "empleados": [
+        {
+            "id": 1,
+            "nombre": "Carmelo",
+            "apellido1": "Cotón",
+            "apellido2": "Ero"
+        }, {
+            "id": 2,
+            "nombre": "Helen",
+            "apellido1": "Chufe",
+            "apellido2": "de la Luz"
+        }, {
+            "id": 4,
+            "nombre": "Elsa",
+            "apellido1": "Capun",
+            "apellido2": "Tas"
+        }, {
+            "id": 7,
+            "nombre": "Pere",
+            "apellido1": "Gil",
+            "apellido2": "Fresco"
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "nombre": "Acme SL",
+            "soporte": "P",
+            "gestor": 1,
+            "cuenta": "1234-5678-90-123456890"
+        },{
+            "id": 2,
+            "nombre": "Sucesores de Elena Nito",
+            "soporte": "N",
+            "gestor": 1,
+            "cuenta": "9876-5432-10-9876543210"
+        },{
+            "id": 3,
+            "nombre": "Ghost In The Machine",
+            "soporte": "N",
+            "gestor": 7,
+            "cuenta": "1111-2222-33-4444555566"
+        },{
+            "id": 5,
+            "nombre": "La Tortilla Feliz",
+            "soporte": "N",
+            "gestor": 7,
+            "cuenta": "0011-2233-44-5566778899"
+        }
+    ],
+  "campos": [
+    {
+      "id": 1,
+      "tabla": "empleados",
+      "orden": 1,
+      "campo": "id",
+      "descrip": "Id"
+    },{
+      "id": 2,
+      "tabla": "empleados",
+      "orden": 2,
+      "campo": "nombre",
+      "descrip": "Nombre"
+    },{
+      "id": 3,
+      "tabla": "empleados",
+      "orden": 3,
+      "campo": "apellido1",
+      "descrip": "1r Apellido"
+    },{
+      "id": 4,
+      "tabla": "empleados",
+      "orden": 4,
+      "campo": "apellido2",
+      "descrip": "2n Apellido"
+    },{
+      "id": 5,
+      "tabla": "clientes",
+      "orden": 1,
+      "campo": "id",
+      "descrip": "Id"
+    },{
+      "id": 6,
+      "tabla": "clientes",
+      "orden": 2,
+      "campo": "soporte",
+      "descrip": "Soporte"
+    },{
+      "id": 7,
+      "tabla": "clientes",
+      "orden": 3,
+      "campo": "gestor",
+      "descrip": "Gestor"
+    },{
+      "id": 8,
+      "tabla": "clientes",
+      "orden": 4,
+      "campo": "cuenta",
+      "descrip": "Nº cuenta"
+    }
+    ]
+}
